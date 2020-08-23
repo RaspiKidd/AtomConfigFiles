@@ -6,7 +6,7 @@
  * The current highlight.js css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/node_modules/highlight.js/styles
  */
  h1,h2, h3, h4{
-   font-family: 'Permanent Marker', cursive;
+   font-family: 'Somatic';
  };
 
 p {
