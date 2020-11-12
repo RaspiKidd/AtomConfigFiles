@@ -5,11 +5,39 @@
  * The base css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/css
  * The current highlight.js css file can be found in the folder ~/.atom/packages/markdown-themeable-pdf/node_modules/highlight.js/styles
  */
- h1,h2, h3, h4{
-   font-family: 'Somatic';
- };
 
-p {
-	font-family: 'Ubuntu', sans-serif;
-  font-size: 18pt;
+h1 {
+  font-family: 'Bangers', cursive;
 };
+
+h2, h3, h4, @font-face {
+   font-family: "Somatic-Rounded";
+   src:url("https://dafonttop.com/wp-data/s/935/8935/file/Somatic-Rounded.otf") format("woff"),
+   url("https://dafonttop.com/wp-data/s/935/8935/file/Somatic-Rounded.otf") format("opentype"),
+   url("https://dafonttop.com/wp-data/s/935/8935/file/Somatic-Rounded.otf") format("truetype");
+ }
+
+ h1 {
+   font-size: 80px;
+   color: #D02530;
+ }
+
+ h2 {
+   font-size: 30px;
+   color: #76B82A;
+ }
+
+ h3 {
+   font-size: 24px;
+   color: #76B82A;
+ }
+
+ h4 {
+   font-size: 18px;
+   color: #006494;
+ }
+
+ body {
+  font-family: "ubuntu";
+  font-size: 12px;
+}
